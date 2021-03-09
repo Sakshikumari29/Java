@@ -1,0 +1,32 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package udemy;
+
+/**
+ *
+ * @author Sakshi Kumari
+ */
+public class PrimitiveTypes {
+    public static void main(String[] args){
+        byte b=1;
+        short s=5;
+        int i=3;
+        char c='s';
+        //float f=1.2; 
+        float f=1.2F;
+        long l2=2_000_000_000L;
+        double d=1.8;
+        var v= 9;
+      char c2=100;
+        System.out.println("c2");
+        
+        double d2=i;  //widening conversion
+        //b=i;
+        b=(byte)i;  ..narrow conversion
+        Integer i4=1; //autoboxing
+        int i5=i4;  //unboxing
+    }
+}
